@@ -97,9 +97,9 @@ end
 def rps_game
   rps = ["rock", "paper", "scissors"]
   puts "Player1 RPS?"
-  player1 = gets.to_i
+  player1 = gets
   puts "Player2 RPS?"
-  player2 = gets.to_i
+  player2 = gets
 
   if rps[player1] == "rock" && rps[player2] == "paper"
     puts "player2 wins!"
